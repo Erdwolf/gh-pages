@@ -1,5 +1,6 @@
 deployment:
   production:
+    branch: gh-pages
     commands:
       - git config --global user.name  "Circle CI"
       - git config --global user.email ""
